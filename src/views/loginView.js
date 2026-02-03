@@ -15,14 +15,15 @@ LoginForm.addEventListener("submit", async function(e){
     if(!found) return
 
     ServiceSession.setSession("currentUser", found.id)
+    ServiceSession.setSession("isLogged", "yes")
 
-    ServiceGuard.guard()
+    // ServiceGuard.guard()
 
-    // if(found.userRol === "admin") {
-    //     window.location = "admin.html"
-    // }
+    if(found.userRol === "admin") {
+        window.location = "admin.html"
+    }
 
-    // if(found.userRol === "user") {
-    //     window.location = "user.html"
-    // }
+    if(found.userRol === "user") {
+        window.location = "user.html"
+    }
 })

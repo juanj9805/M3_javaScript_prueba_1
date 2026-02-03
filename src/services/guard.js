@@ -1,13 +1,6 @@
 import * as ServiceAuth from "./../services/auth.js"
+import * as ServiceSession from "./../services/sessionStorage.js"
 
-export const guard = async function () {
-    const currentUserRol = await ServiceAuth.authUser()
-
-          if(currentUserRol === "admin") {
-        window.location = "admin.html"
-    }
-
-    if(currentUserRol === "user") {
-        window.location = "user.html"
-    }
-}
+// if(ServiceSession.getSession("isLogged") !== "yes"){
+//     window.location = "login.html"
+// }
