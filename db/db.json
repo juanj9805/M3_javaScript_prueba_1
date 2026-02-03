@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "userFullName": "juan",
+      "userEmail": "admin@mail.com",
+      "department": "",
+      "userPassword": "123",
+      "userRol": "admin",
+      "userJoinDate": "",
+      "id": "15a5"
+    },
+    {
+      "userFullName": "ana",
+      "userEmail": "user@mail.com",
+      "department": "",
+      "userPassword": "123",
+      "userRol": "user",
+      "userJoinDate": "",
+      "id": "2430"
+    },
+    {
+      "id": "c4e6",
+      "userFullName": "carlos",
+      "userEmail": "carlos@mail.com",
+      "userPassword": "123",
+      "userRol": "user",
+      "userJoinDate": "Mon Feb 02 2026 19:52:04 GMT-0500 (hora estándar de Colombia)"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "02a5",
+      "taskName": "limpiar",
+      "taskCategory": "computer",
+      "taskPriority": "medium",
+      "taskStatus": "progress",
+      "taskDueDate": "2026-02-26",
+      "taskDescription": "dsa dsa dds ds adsa",
+      "userId": "2"
+    },
+    {
+      "id": "f3b3",
+      "taskName": "jaja",
+      "taskCategory": "history",
+      "taskPriority": "high",
+      "taskStatus": "progress",
+      "taskDueDate": "2026-02-28",
+      "taskDescription": "d ssadsa dsadsad ass ",
+      "userId": "2",
+      "taskGenerated": "Mon Feb 02 2026 19:47:08 GMT-0500 (hora estándar de Colombia)"
+    },
+    {
+      "id": "0e26",
+      "taskName": "barrer",
+      "taskCategory": "mathematics",
+      "taskPriority": "medium",
+      "taskStatus": "progress",
+      "taskDueDate": "2026-02-28",
+      "taskDescription": "d ssadsa dsadsad ass ",
+      "userId": "2",
+      "taskGenerated": "Mon Feb 02 2026 19:49:34 GMT-0500 (hora estándar de Colombia)",
+      "taskAssignee": "2"
+    },
+    {
+      "id": "4aa7",
+      "taskName": "trapear",
+      "taskCategory": "mathematics",
+      "taskPriority": "medium",
+      "taskStatus": "completed",
+      "taskDueDate": "2026-02-26",
+      "taskDescription": "dsa dsa dds ds adsa",
+      "userId": "2",
+      "taskGenerated": "Mon Feb 02 2026 19:49:55 GMT-0500 (hora estándar de Colombia)",
+      "taskAssignee": "2"
+    }
+  ]
+}
